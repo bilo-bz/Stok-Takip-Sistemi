@@ -11,4 +11,28 @@ Programın Stok Yönetimi kısmı bu şekilde gözükmektedir.
 
 En son olarak eğer bir ürünü silmek istiyorsak ürünü seçiyor ve sonrasında "Seçili Ürünü Sil" butonuna basıyoruz ve ürünü silmiş oluyoruz.
 
-![image](https://github.com/user-attachments/assets/416eb90e-f9c2-4423-8bf5-87bc495642fa)
+![image](https://github.com/user-attachments/assets/4ae160a5-b0cc-4084-b412-6c0f79f8c122)
+
+# ▶︎ Kategori Yönetimi Bölümü:
+
+Bu bölümde ise, ürün işlemmi yaparken (ürün eklerken) seçmemiz gereken kategorileri ekliyoruz / yönetiyoruz. 
+
+Yeni kategori bölümünden eklemek istediğimiz Kategorinin adını yazıyoruz ve ekliyoruz.
+
+Eğer eklediğimiz kategoriyi silmek istersek kategoriyi seçiyoruz ve "Seçili Kategoriyi Sil" butonuna basıp siliyoruz.
+
+![image](https://github.com/user-attachments/assets/6b5c6b7e-dc6e-4295-8b12-7a690391a038)
+
+
+# ▶︎ İşlem Geçmişi Bölümü:
+
+Bu bölümde daha önceki bölümlerde yapmış olduğumuz tüm işlemlerin kayıtı tutulmaktadır. İstediğaimiz zaman bu kayıtları İşlem Geçmişi bölümünden görüntüleyebilmekteyiz.
+
+Eğer istersek işlem kayıtlarını da "Geçmişi Temizle" butonuna tıklayarak temizleyebiliriz.
+
+![image](https://github.com/user-attachments/assets/3db5faf8-1112-462a-b39c-67243b7caca8)
+
+
+# ▶︎ Programdaki Veriler
+
+Veriler her işlem yapıldığında kaydedilmektedir. Bu verileri programın çalıştığı klasörün içerisine data adında bir klasör açarak bu açtığı klasörün içine de stok_yonetim_verileri.json adında bir dosya açıyor ve buraya uygulamada yapılan işlemleri anlık olarak kaydediyor. Uygulama her açıldığında bu verileri çekerek entegre ediyor ve veri kaybı yaşanmamasını sağlıyor.
