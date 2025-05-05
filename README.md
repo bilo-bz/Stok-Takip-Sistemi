@@ -37,7 +37,7 @@ Eğer istersek işlem kayıtlarını da "Geçmişi Temizle" butonuna tıklayarak
 
 Veriler her işlem yapıldığında kaydedilmektedir. Bu verileri programın çalıştığı klasörün içerisine data adında bir klasör açarak bu açtığı klasörün içine de stok_yonetim_verileri.json adında bir dosya açıyor ve buraya uygulamada yapılan işlemleri anlık olarak kaydediyor. Uygulama her açıldığında bu verileri çekerek entegre ediyor ve veri kaybı yaşanmamasını sağlıyor.
 
-▶︎ Proje nasıl çalıştırılır?
+# ▶︎ Proje nasıl çalıştırılır?
 
 1) Visual studio code uygulamasını indirip eklentiler kısmından Python eklentisini kurun.
 2) Projeyi indirin ve herhangi bir klasöre çıkartın.
